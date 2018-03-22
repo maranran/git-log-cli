@@ -1,0 +1,32 @@
+{
+  "name": "git-log-ran",
+  "version": "0.1.0",
+  "description": "小工具",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maranran/git-log-cli.git"
+  },
+  "keywords": [
+    "git",
+    "log"
+  ],
+  "author": "1548515516@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maranran/git-log-cli/issues"
+  },
+  "homepage": "https://github.com/maranran/git-log-cli#readme",
+  "dependencies": {
+    "commander": "^2.15.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "gitlog": "bin/gitlog.js"
+  }
+}
